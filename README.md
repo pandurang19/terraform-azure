@@ -40,6 +40,4 @@
 ```
 
 ### Referance
-```
-[Azure Key Vault Integration](https://github.com/bart-jansen/terraform-aks-appgw-acr-keyvault-loganalytics)
-```
+- [Azure Key Vault Integration](https://github.com/bart-jansen/terraform-aks-appgw-acr-keyvault-loganalytics)
