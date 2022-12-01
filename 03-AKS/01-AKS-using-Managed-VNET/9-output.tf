@@ -1,8 +1,16 @@
-output "versions" {
-  value = data.azurerm_kubernetes_service_versions.current.versions
+output "cluster_name" {
+  value = azurerm_kubernetes_cluster.kubernetes_cluster.name
 }
 
-output "latest_version" {
+output "node_resource_group" {
+  value = azurerm_kubernetes_cluster.kubernetes_cluster.node_resource_group
+}
+
+# output "kubernetes_versions" {
+#   value = data.azurerm_kubernetes_service_versions.current.versions
+# }
+
+output "kubernetes_latest_version" {
   value = data.azurerm_kubernetes_service_versions.current.latest_version
 }
 
